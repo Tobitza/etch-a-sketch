@@ -6,7 +6,8 @@
 }
 
 .grid-square {
-    width: calc(480px/16);
-    height: calc(480px/16);
+    width: calc(480px/ var(--grid-size));
+    height: calc(480px/ var(--grid-size));
     border: 1px solid #ddd;
+    box-sizing: border-box;
 }
